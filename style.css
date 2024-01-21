@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #ae9cff;
+    position: relative;
+}
+
+.dic-container{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+}
+
+.dic-container h1{
+    font-size: 45px;
+}
+
+.dic-container h3{
+    font-size: 40px;
+    color: rgb(50, 50, 50);
+    margin-bottom: 35px;
+}
+
+.dic-container .row{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.dic-container .row input{
+    flex: 1;
+    border: 0;
+    
+    padding: 12px;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.dic-container .row input::placeholder{
+    font-family: "Poppins", sans-serif;
+}
+
+.dic-container .row button{
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(50, 50, 50);
+    cursor: pointer;
+}
+
+.dic-container .row button:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+.word-container{
+    width: 500px;
+    background-color: #fff;
+    color: rgb(50, 50, 50);
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.word-container h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.word-container .pos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.word-container .pos p{
+    margin-right: 10px;
+}
+
+.word-container #meaning{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.word-container #examplediv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.word-container #examplediv i{
+    margin-right: 5px;
+}
+
+.word-container #examplediv p{
+    text-align: center;
+}
